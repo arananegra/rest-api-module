@@ -6,8 +6,10 @@
   - _editCar(car) url_: 'http://localhost:3050/api/car/:car.car_id'. `PUT` http verb.
    ```diff
   //There was a line (84) with a typo in cars.js inside the server folder
-  //(express req.params are casted as strings and car_id is a number so stric comparison didn't work)
+  //(express req.params are casted as strings and car_id is a number so strict comparison didn't work)
   -(item) => item.car_id === req.params.id
   +(item) => item.car_id === +req.params.id
   ```
   - _deleteCar(carId) url_: 'http://localhost:3050/api/car/:carId'. `DELETE` http verb.
+  
+    - All requests were made using axios and fetch (with the special usage of await).

@@ -1,7 +1,7 @@
 [
     {
         "car_id": 1,
-        "name": "ABX",
+        "name": "ABC",
         "brand": "Tokiota",
         "year_release": "1999"
     },
@@ -34,5 +34,11 @@
         "name": "Green Roaster",
         "brand": "HMI",
         "year_release": "1976"
+    },
+    {
+        "car_id": 62,
+        "name": "Corsa 2015",
+        "brand": "Opel GM",
+        "year_release": "2015"
     }
 ]
