@@ -12,4 +12,4 @@
   ```
   - _deleteCar(carId) url_: 'http://localhost:3050/api/car/:carId'. `DELETE` http verb.
   
-    - All requests were made using axios and fetch (with the special usage of await).
+    - All requests were made using axios + fetch as extra (with the special usage of await).
