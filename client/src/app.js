@@ -1,5 +1,14 @@
 import {addCarRows, cleanTable, populateEditCarForm, retrieveCarForm, retrieveCarId,} from './uiHelpers';
-import {addCar, deleteCar, editCar, getAllCars, getCarById} from './API/carsApi';
+import {
+	addCar,
+	addCarFetch,
+	deleteCar, deleteCarFetch,
+	editCar,
+	editCarFetch,
+	getAllCars,
+	getAllCarsFetch,
+	getCarById
+} from './API/carsApi';
 
 document.addEventListener('DOMContentLoaded', () => {
 	const buttonLoadCars = document.getElementById('loadcars');
